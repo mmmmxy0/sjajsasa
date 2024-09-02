@@ -84,3 +84,12 @@ img:hover {
     transform: scale(1.05);
     transition: all .3s;
 }
+
+.download-btn{
+    padding: 10px;
+}
+
+.row{
+    justify-content: center;
+}
+
