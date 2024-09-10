@@ -93,3 +93,10 @@ img:hover {
     justify-content: center;
 }
 
+.btn-warning{
+    color: #000;
+}
+
+.nav .active {
+    border-bottom: 2px solid rgb(0, 98, 175);
+  }
