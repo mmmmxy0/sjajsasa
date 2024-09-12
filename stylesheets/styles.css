@@ -81,8 +81,6 @@ a:hover {
 }
 
 
-/*nav-link {}*/
-
 img:hover {
     transform: scale(1.05);
     transition: all .3s;
