@@ -89,6 +89,11 @@ img:hover {
     transition: all .3s;
 }
 
+img {
+    max-width: 100%; 
+    height: auto;
+  }
+
 .download-btn{
     padding: 10px;
 }
@@ -120,4 +125,5 @@ background-position: bottom ;
     background-image: url(https://mmmmxy0.github.io/sjajsasa/img/banner/Banner-02.jpg);
 background-size: cover;  
 background-position:right;
+
 }
