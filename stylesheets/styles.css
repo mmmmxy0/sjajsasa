@@ -100,3 +100,19 @@ img:hover {
 .nav .active {
     border-bottom: 2px solid rgb(0, 98, 175);
   }
+
+  .bg-A{
+    width:100% ;
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1640101086894-7d70c3e70179?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;  
+background-position: center;
+}
+
+.bg-events{
+    width:100% ;
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1640101086894-7d70c3e70179?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;  
+background-position: center;
+}
