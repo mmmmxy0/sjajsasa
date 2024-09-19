@@ -98,13 +98,14 @@
         <section class="px4 py-5">
             <div class="container px4 py-5">
 
-
-
-
-
                 <h5 class="text-center my-5 display-5 fw-bold">Our Products</h5><br>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col px-4 py-5">
+
+
+
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-230.png" class="card-img-top" alt="ATL-230.jpg">
                             <div class="card-body text-center">
@@ -115,7 +116,24 @@
 
                         </div>
                     </div>
-                    <div class="col px-4 py-5">
+                    <!-- 400 -->
+                    <div class="col py-5">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/Products/ATL-230.png" class="card-img-top" alt="ATL-400.jpg">
+                            <div class="card-body text-center">
+
+                                <h5 class="card-title fw-bold">Time Lapse Camera ATL-400 <span
+                                        class="badge bg-success">New</span></h5>
+                                <p class="card-text">2560x1440@30FPS
+                                    1080P Full HD @ 30FPS
+                                </p>
+                                <a href="Error.html" class="btn btn-outline-primary">Coming soon</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-800.png" class="card-img-top" alt="ATL-800.jpg">
                             <div class="card-body text-center">
@@ -127,7 +145,8 @@
 
                         </div>
                     </div>
-                    <div class="col px-4 py-5">
+
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-800i.png" class="card-img-top" alt="ATL-800i.jpg">
                             <div class="card-body text-center">
@@ -138,18 +157,20 @@
 
                         </div>
                     </div>
+
+
+
                 </div>
 
 
-
-
-
-
+                <!-- old -->
                 <h4 class="mt-0 text-center text-danger">The following products are no longer available.
                     Select product for support
                 </h4>
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
-                    <div class="col px-4 py-5">
+
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-200.png" class="card-img-top" alt="ATL-200.jpg">
                             <div class="card-body text-center">
@@ -160,7 +181,19 @@
 
                         </div>
                     </div>
-                    <div class="col px-4 py-5">
+                    <div class="col py-5">
+                        <div class="card h-100 shadow-sm">
+                            <img src="img/Products/ATL-201S.png" class="card-img-top" alt="ATL-200S.jpg">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Time Lapse Camera ATL-201</h5>
+                                <p class="card-text">1920x1080 pixels, F 0.95 large IRIS
+                                </p><br>
+                                <a href="oldtlc.html" class="btn btn-outline-secondary">Learn more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-200S.png" class="card-img-top" alt="ATL-200S.jpg">
                             <div class="card-body text-center">
@@ -172,7 +205,7 @@
 
                         </div>
                     </div>
-                    <div class="col px-4 py-5">
+                    <div class="col py-5">
                         <div class="card h-100 shadow-sm">
                             <img src="img/Products/ATL-201S.png" class="card-img-top" alt="ATL-201S.jpg">
                             <div class="card-body text-center">
@@ -187,9 +220,10 @@
                 </div>
 
             </div>
-            <a class="float-end btn" href="" id="btt">
-                <img src="img/icon/arrow-bar-up.svg" alt="Back to top" width="38">
-            </a>
+            <!--Back to top-->
+            <div class="fixed-bottom d-none d-lg-block fixed" style="left: 95%; bottom: 5%;"><a class="btn" href=""
+                    id="btt"><img src="img/icon/arrow-bar-up.svg" alt="Back to top" width="38" class=""></a>
+            </div>
         </section>
     </main>
     <!--footer-->
@@ -197,7 +231,7 @@
         <h2 class="pb-2 border-bottom"></h2>
         <div class="container">
 
-            <div class="float-end text-center fw-bold ">
+            <div class="float-end text-center">
                 <a class="link-dark" href="download.html"><img src="img/APP.png" width="90"><br> Download APP
             </div>
 
@@ -230,6 +264,39 @@
     <script src="stylesheets/afidus.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+
+        function slider_carouselInit() {
+            $('.owl-carousel.slider_carousel').owlCarousel({
+                dots: false,
+                loop: true,
+                margin: 30,
+                stagePadding: 2,
+                autoplay: false,
+                nav: true,
+                navText: ["<i class='far fa-arrow-alt-circle-left'></i>", "<i class='far fa-arrow-alt-circle-right'></i>"],
+                autoplayTimeout: 1500,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 5
+                    }
+                }
+            });
+        }
+        slider_carouselInit();
+
+    </script>
 
 
 </body>

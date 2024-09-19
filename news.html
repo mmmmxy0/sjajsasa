@@ -96,7 +96,13 @@
     </header>
     <main>
         <section class="text-center">
-            <div class="container py-5 d-flex">
+            <div class="container py-5">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">News</li>
+                    </ol>
+                </nav>
                 <div class="my-5">
 
                     <h5 class="my-5 display-5 fw-bold">News</h5><br>
@@ -126,6 +132,7 @@
                                     <div class="col col-md-6 mb-md-0 p-md-4">
                                         <img src="img/news/news-06.jpg" class="rounded w-100">
                                     </div>
+                                    <!-- 
                                     <div class="col-md-6 p-4 ps-md-0">
                                         <div class="accordion-body lh-lg">
                                             Afidus ATL800, an innovated 4k timelapse camera break into timelapse market
@@ -142,7 +149,7 @@
                                             Afidus aim to provides the best timelapse camera to everyone, and we never
                                             stops.
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -174,6 +181,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--  
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -230,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
@@ -341,8 +349,8 @@
 
             </div>
 
-            <div class="position-absolute bottom-150 end-0"><a class="btn" href="" id="btt"><img
-                        src="img/icon/arrow-bar-up.svg" alt="Back to top" width="38"></a>
+            <div class="fixed-bottom d-none d-lg-block fixed" style="left: 95%; bottom: 5%;"><a class="btn" href=""
+                    id="btt"><img src="img/icon/arrow-bar-up.svg" alt="Back to top" width="38" class=""></a>
             </div>
         </div>
 
@@ -356,7 +364,7 @@
         <h2 class="pb-2 border-bottom"></h2>
         <div class="container">
 
-            <div class="float-end text-center fw-bold ">
+            <div class="float-end text-center">
                 <a class="link-dark" href="download.html"><img src="img/APP.png" width="90"><br> Download APP
             </div>
 
