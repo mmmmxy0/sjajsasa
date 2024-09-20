@@ -3,13 +3,17 @@ body{
 }
 .goDown .bi-chevron-double-down {
     position: relative;
-    
     animation: pulse 1s infinite;
+}
+
+.bi-chevron-double-down::before{
+    content: "\f27e";
 }
 
 /* Banner */
 #lokiSlider img {
     object-fit: cover;
+    transform: none;
 }
 
 #lokiSlider .carousel-caption {
@@ -143,4 +147,6 @@ background-attachment: fixed;
 }
 
 
-
+.modal-body img{
+    transform: none;
+}
