@@ -150,3 +150,6 @@ background-attachment: fixed;
 .modal-body img{
     transform: none;
 }
+.card img{
+    transform: none;
+}
