@@ -1,6 +1,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} 
+
+
+
 .goDown .bi-chevron-double-down {
     position: relative;
     animation: pulse 1s infinite;
@@ -129,7 +132,7 @@ img {
 
 .bg-A{
     width:100% ;
-    height: 70vh;
+    height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1640101086894-7d70c3e70179?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-attachment: fixed;
     background-size: cover;  
