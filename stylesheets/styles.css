@@ -3,7 +3,6 @@ body{
 } 
 
 
-
 .goDown .bi-chevron-double-down {
     position: relative;
     animation: pulse 1s infinite;
@@ -149,11 +148,14 @@ background-attachment: fixed;
 
 }
 
-
 .modal-body img{
     transform: none;
 }
 .card img{
+    transform: none;
+}
+
+.accordion-body img{
     transform: none;
 }
 
